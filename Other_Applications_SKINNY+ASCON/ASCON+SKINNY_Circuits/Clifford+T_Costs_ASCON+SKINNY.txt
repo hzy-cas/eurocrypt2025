@@ -1,0 +1,56 @@
+1. 
+######### The Costs of the Circuit ###########
+1qClifford-count: 66
+CNOT-count: 322
+T-count: 40
+Measurment-count: 8
+Width: 29
+T-depth: 3
+Current Depth: 135
+Full depth: 133
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./CliffordT_layer/SKINNY128_T3_Layer_CliffordT.qasm".
+
+2. 
+######### The Costs of the Circuit ###########
+1qClifford-count: 1887
+CNOT-count: 7612
+T-count: 4669
+Measurment-count: 0
+Width: 8
+T-depth: 1901
+Current Depth: 10312
+Full depth: 9778
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./CliffordT_layer/SKINNY128_8qubit_Layer_CliffordT.qasm".
+
+
+3.
+######### The Costs of the Circuit ###########
+1qClifford-count: 16
+CNOT-count: 135
+T-count: 20
+Measurment-count: 0
+Width: 20
+T-depth: 1
+Current Depth: 62
+Full depth: 62
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./CliffordT_layer/ASCON_T1_Layer_CliffordT.qasm".
+
+4. 
+######### The Costs of the Circuit ###########
+1qClifford-count: 24
+CNOT-count: 85
+T-count: 49
+Measurment-count: 0
+Width: 5
+T-depth: 21
+Current Depth: 108
+Full depth: 98
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./CliffordT_layer/ASCON_5qubit_Layer_CliffordT.qasm".

@@ -1,0 +1,51 @@
+1.
+######### The Costs of the Circuit ###########
+NOT-count: 4
+CNOT-count: 234
+Toffoli-count: 18
+Width: 25
+Toffoli-depth: 5
+Current Depth: 119
+Full depth: 115
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./NCT_layer/SKINNY128_T3_Layer_NCT.qasm".
+
+2.
+######### The Costs of the Circuit ###########
+NOT-count: 260
+CNOT-count: 837
+Toffoli-count: 1117
+Width: 8
+Toffoli-depth: 1092
+Current Depth: 1899
+Full depth: 1896
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./NCT_layer/SKINNY128_8qubit_Layer_NCT.qasm".
+
+3.
+######### The Costs of the Circuit ###########
+NOT-count: 1
+CNOT-count: 95
+Toffoli-count: 5
+Width: 15
+Toffoli-depth: 1
+Current Depth: 56
+Full depth: 56
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./NCT_layer/ASCON_T1_Layer_NCT.qasm".
+
+4.
+######### The Costs of the Circuit ###########
+NOT-count: 10
+CNOT-count: 38
+Toffoli-count: 7
+Width: 5
+Toffoli-depth: 7
+Current Depth: 44
+Full depth: 44
+
+########## Outputting the layer structure ##########
+The layer structure is outputted in the file "./NCT_layer/ASCON_5qubit_Layer_NCT.qasm".
