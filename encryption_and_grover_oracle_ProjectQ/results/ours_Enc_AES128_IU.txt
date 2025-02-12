@@ -1,0 +1,33 @@
+-------------------------------Encryption Oracle Resource Check------------------------------
+This is the quantum circuit resource estimate for AES-128 (based on T-depth-3 S-box and IU structure) when implemented as an Encryption oracle:
+Gate class counts:
+    AllocateQubitGate : 16128
+    CCXGate : 13440
+    CXGate : 281896
+    DaggeredGate : 26880
+    DeallocateQubitGate : 16000
+    HGate : 67200
+    SGate : 13440
+    TGate : 26880
+    XGate : 15944
+
+Gate counts:
+    Allocate : 16128
+    CCX : 13440
+    CX : 281896
+    Deallocate : 16000
+    H : 67200
+    S : 13440
+    T : 26880
+    T^\dagger : 26880
+    X : 15944
+
+Max. width (number of qubits) : 2689.
+depth_of_dag: 1066
+------------------------------Encryption Oracle Correctness Check----------------------------
+This is the correctness verification of the quantum circuit for AES-128 (based on T-depth-3 S-box and IU structure) when implemented as an Encryption oracle:
+
+MainKey   : 0x12345678123456781234567812345678
+Plaintext : 0x12345678123456781234567812345678
+Ciphertext: 0xd7eeee18c420faf0dc7db5ca73a2b817
+The ancilla registers have all been uncomputed to 0

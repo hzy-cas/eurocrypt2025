@@ -1,0 +1,33 @@
+----------------------------Grover Oracle Resource Check---------------------------
+This is the quantum circuit resource estimate for AES-128 (based on T-depth-3 S-box and the pipeline round structure) when implemented as a Grover oracle:
+Gate class counts:
+    AllocateQubitGate : 22336
+    CCXGate : 16800
+    CXGate : 353160
+    DaggeredGate : 42000
+    DeallocateQubitGate : 22080
+    HGate : 84000
+    SGate : 8400
+    TGate : 33600
+    XGate : 18400
+
+Gate counts:
+    Allocate : 22336
+    CCX : 16800
+    CX : 353160
+    Deallocate : 22080
+    H : 84000
+    S : 8400
+    S^\dagger : 8400
+    T : 33600
+    T^\dagger : 33600
+    X : 18400
+
+Max. width (number of qubits) : 2897.
+depth_of_dag: 1782
+---------------------------Grover Oracle Correctness Check-------------------------
+This is the correctness verification of the quantum circuit for AES-128 (based on T-depth-3 S-box and the pipeline round structure) when implemented as a Grover oracle:
+
+MainKey   : 0x12345678123456781234567812345678
+Plaintext : 0x12345678123456781234567812345678
+Ciphertext: 0xd7eeee18c420faf0dc7db5ca73a2b817
